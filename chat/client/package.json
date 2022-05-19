@@ -1,0 +1,19 @@
+{
+  "name": "chat",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "A chat application built on StacklessJS.",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "bin": {
+    "chat": "index.mjs"
+  },
+  "author": "Warpdrive Technologies, Inc.",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "inquirer": "^8.2.0"
+  }
+}
