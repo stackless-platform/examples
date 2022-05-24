@@ -1,8 +1,8 @@
 # ExerciseTrackerExample
-This is a fully featured, React-based browser application that demonstrates all of StacklessJS's features.
+This is a fully featured, React-based browser application that demonstrates all of Stackless's features.
 
 # Setup
-1. Install StacklessJS Tools: `npm install -g stacklessjs-tools`
+1. Install Stackless Tools: `npm install -g stackless-tools`
 2. Clone this repository
 3. `cd warp`
 4. `warp init`
