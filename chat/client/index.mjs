@@ -1,7 +1,7 @@
 import inquirer from 'inquirer';
 import chalk from "chalk";
 
-import { warp, WarpOptions } from "stacklessjs";
+import { warp, WarpOptions } from "stackless-runtime";
 import { ChatServer, ChatTextSaid } from "chat-warp";
 
 //hide the normally verbose logging

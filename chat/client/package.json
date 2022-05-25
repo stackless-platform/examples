@@ -2,7 +2,7 @@
   "name": "chat",
   "private": "true",
   "version": "1.0.0",
-  "description": "A chat application built on StacklessJS.",
+  "description": "A chat application built on Stackless.",
   "main": "index.mjs",
   "scripts": {
     "start": "node index.mjs"

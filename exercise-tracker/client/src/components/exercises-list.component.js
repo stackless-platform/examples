@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import { warp } from 'stacklessjs';
+import { warp } from 'stackless-runtime';
 import { ExerciseAdded, Exercise, ExerciseTrackerService } from 'exercise-tracker-warp';
 
 const ExerciseItem = props => (
@@ -31,7 +31,7 @@ export default class ExercisesList extends Component {
 
     async componentWillUnmount() {
         //stop listening for changes when we leave this page
-        // note: You don't strictly have to do this but it's good practice to conserve StacklessJS resources.
+        // note: You don't strictly have to do this but it's good practice to conserve Stackless resources.
         if (this.state.exercises && this.state.exercises.length > 0)
             await warp.unsubscribeUpdatesAsync(this.state.exercises);
 
@@ -62,7 +62,7 @@ export default class ExercisesList extends Component {
                 service: service
             });
 
-            //Tell StacklessJS we want to receive the ExerciseAdded message when its sent by the ExerciseTrackerService.
+            //Tell Stackless we want to receive the ExerciseAdded message when its sent by the ExerciseTrackerService.
             await warp.subscribeMessageAsync(service, ExerciseAdded, async exerciseAdded => {
                 const exercise = exerciseAdded.exercise;
 
@@ -70,7 +70,7 @@ export default class ExercisesList extends Component {
                     exercises: [...prevstate.exercises, exercise] //add the exercise to the list of known exercises
                 }));
 
-                //Tell StacklessJS we want to receive all updates to this new exercise and...
+                //Tell Stackless we want to receive all updates to this new exercise and...
                 await warp.subscribeUpdatesAsync(exercise);
 
                 // ... fire onUpdate when it's updated.
@@ -86,7 +86,7 @@ export default class ExercisesList extends Component {
                 exercises: exercises
             });
 
-            //Tell StacklessJS we want to receive all updates to all the exercises and...
+            //Tell Stackless we want to receive all updates to all the exercises and...
             if (exercises && exercises.length > 0) {
                 await warp.subscribeUpdatesAsync(exercises);
                 // ... fire onUpdate when any of them change.

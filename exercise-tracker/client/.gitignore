@@ -20,4 +20,4 @@ yarn-debug.log*
 yarn-error.log*
 
 # This must be preserved in source control.
-!.stacklessjs/
+!.stackless/

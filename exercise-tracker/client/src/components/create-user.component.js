@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Navigate } from 'react-router-dom';
-import { warp } from 'stacklessjs';
+import { warp } from 'stackless-runtime';
 import { ExerciseTrackerService } from 'exercise-tracker-warp';
 
 export default class CreateUser extends Component {

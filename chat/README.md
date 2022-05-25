@@ -1,5 +1,5 @@
 # ChatExample
-Example real-time CLI-based chat server and client application using StacklessJS.
+Example real-time CLI-based chat server and client application using Stackless.
 
 # Setup
 1. cd warp/
