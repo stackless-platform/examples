@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import DatePicker from 'react-datepicker';
 import { Navigate } from 'react-router-dom';
 import "react-datepicker/dist/react-datepicker.css";
-import {warp} from "stackless-runtime";
+import {warp} from "stackless-js";
 import {Exercise, ExerciseTrackerService} from "exercise-tracker-warp";
 
 export default class CreateExercise extends Component {
