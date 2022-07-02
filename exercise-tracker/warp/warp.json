@@ -1,0 +1,23 @@
+{
+    "warp": "Exercise-Tracker",
+    "types": [
+        {
+            "name": "Exercise",
+            "tag": "7e2fff6e89ed42bb806239e1b6d7fd9e"
+        },
+        {
+            "name": "ExerciseAdded",
+            "tag": "eb593487b52e4cafafebaa1bd34638f6"
+        },
+        {
+            "name": "User",
+            "tag": "77d46f2a28e54748a411c24080339b83"
+        },
+        {
+            "name": "ExerciseTrackerService",
+            "tag": "29faecafe9f24c9bbb3a95271219ecfc"
+        }
+    ],
+    "identity": "eyJhZG1pbktleSI6ImdQMkZuNDNTc1dWMTI2ZnB6NkJCdjFMbmxmLzBpMmN5RElJOTAzR0xHY1BBVWdtRjB0UVRuN2ZURTdFajAvVVNpS3R1c3RTSHN4eHRuNmVMMWdNMEp1OW9MYWtEV0MreWd6djJDYjAxaWp2NDJMaFFFc05RRllGOHB1MUxsQkQyNkVyMzJsdzQzWEpZZjFmRmFzSkd0MEtJbEI3VnhvS1ZNL2Nxdmt5MS9INU00WTV2SFR6djRlREVqY1V4dmN4WHB6RWYvMFkwdHJKZVNYdmJhYmVySHJTSXltMERMcCt4Y1VzaEJIU05nZjc3STRYRDNsejdLZVFHTUhxTnFqTkkiLCJjaGVja3N1bSI6MjM5MDUxNTA1LCJ3YXJwSWQiOiI1MDAwMDEzIiwid2FycFZlcnNpb24iOiIxIiwiaWRlbnRpdHlDbGFzc01hcHBpbmdzIjpbeyJjbGFzc05hbWUiOiJFeGVyY2lzZSIsImNsYXNzSWQiOjEsInRhZyI6IjdlMmZmZjZlODllZDQyYmI4MDYyMzllMWI2ZDdmZDllIn0seyJjbGFzc05hbWUiOiJFeGVyY2lzZUFkZGVkIiwiY2xhc3NJZCI6MiwidGFnIjoiZWI1OTM0ODdiNTJlNGNhZmFmZWJhYTFiZDM0NjM4ZjYifSx7ImNsYXNzTmFtZSI6IlVzZXIiLCJjbGFzc0lkIjozLCJ0YWciOiI3N2Q0NmYyYTI4ZTU0NzQ4YTQxMWMyNDA4MDMzOWI4MyJ9LHsiY2xhc3NOYW1lIjoiRXhlcmNpc2VUcmFja2VyU2VydmljZSIsImNsYXNzSWQiOjQsInRhZyI6IjI5ZmFlY2FmZTlmMjRjOWJiYjNhOTUyNzEyMTllY2ZjIn1dLCJsYXN0Q2xhc3NJZCI6NH0=",
+    "onBootModule": "init"
+}

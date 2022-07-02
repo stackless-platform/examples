@@ -1,4 +1,4 @@
-import {createUuid, system, Message, Data, Service} from "./warp-kernel";
+import {createUuid, system, Message, Data, Service} from "./warp-runtime";
 
 class ChatServer extends Service {
     constructor(name) {
