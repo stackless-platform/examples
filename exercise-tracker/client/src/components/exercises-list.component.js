@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import { warp } from 'stackless-js';
+import { warp } from 'warp-client';
 import { ExerciseAdded, Exercise, ExerciseTrackerService } from 'exercise-tracker-warp';
 
 const ExerciseItem = props => (

@@ -4,7 +4,7 @@ import {
     Message,
     Data,
     Service
-} from "./warp-kernel";
+} from "./warp-runtime";
 
 class Exercise extends Data {
     constructor(user, description, duration, date) {
